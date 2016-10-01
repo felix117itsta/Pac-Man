@@ -21,7 +21,8 @@ public class Pacman extends JFrame {
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         setSize(380, 420);
         setLocationRelativeTo(null);
-        setVisible(true);        
+        setVisible(true);      
+        setResizable(false);
     }
 
     public static void main(String[] args) {
